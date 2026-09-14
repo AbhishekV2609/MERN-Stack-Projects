@@ -1,0 +1,28 @@
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.active {
+  color: green;
+}
+
+.monitoring {
+  color: orange;
+}
+.completed {
+  color: blue;
+}
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+body.dark .project-card {
+  background: #1e1e1e;
+  border-color: #2a2a2a;
+}

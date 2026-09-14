@@ -1,0 +1,123 @@
+/* ===============================
+   MAP VIEW LAYOUT
+================================ */
+
+.map-wrapper {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ===============================
+   HEADER (TITLE + ACTIONS)
+================================ */
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* ===============================
+   CLEAR DISTANCE BUTTON
+================================ */
+
+.clear-btn {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #ff4d4f;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.clear-btn:hover {
+  background: #d9363e;
+  transform: translateY(-1px);
+}
+
+/* ===============================
+   DESCRIPTION TEXT
+================================ */
+
+.map-wrapper p {
+  font-size: 13px;
+  color: var(--muted-text);
+  margin-bottom: 4px;
+}
+
+/* ===============================
+   MAP CONTAINER
+================================ */
+
+#map {
+  flex: 1;
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* ===============================
+   MAP CONTROLS FIX
+================================ */
+
+/* Zoom buttons spacing */
+.maplibregl-ctrl-top-right {
+  margin-top: 70px;
+}
+
+/* Draw controls */
+.mapboxgl-ctrl-group {
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+/* ===============================
+   POPUP STYLING
+================================ */
+
+.maplibregl-popup-content {
+  font-size: 13px;
+  color: #222;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: white !important;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .map-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .clear-btn {
+    align-self: flex-end;
+  }
+}
+@media (max-width: 480px) {
+  .map-wrapper {
+    padding: 0 10px;
+  }
+
+  .map-header h1 {
+    font-size: 18px;
+  }
+}

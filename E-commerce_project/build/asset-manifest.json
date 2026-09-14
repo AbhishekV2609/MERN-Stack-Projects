@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/E-commerce_project/static/css/main.3c1833ef.css",
+    "main.js": "/E-commerce_project/static/js/main.2a051227.js",
+    "static/media/cycle-Footer-img-unscreen.gif": "/E-commerce_project/static/media/cycle-Footer-img-unscreen.345e37d63ea9a8203014.gif",
+    "static/media/car2.gif": "/E-commerce_project/static/media/car2.201e1ccd9b31c10c4229.gif",
+    "static/media/acerlogo.png": "/E-commerce_project/static/media/acerlogo.f895fc80333adb3c6d10.png",
+    "static/media/delllogo.png": "/E-commerce_project/static/media/delllogo.b7bea92c13c7a37d8862.png",
+    "static/media/hcllogo.png": "/E-commerce_project/static/media/hcllogo.2ef4c0c594a1c56c2289.png",
+    "static/media/photo1.png": "/E-commerce_project/static/media/photo1.ed10f15d41c5e2c74fcb.png",
+    "static/media/lenovologo.png": "/E-commerce_project/static/media/lenovologo.f23698d171335d672281.png",
+    "static/media/msilogo.png": "/E-commerce_project/static/media/msilogo.1655d2597cdefa383646.png",
+    "static/media/Microsoftlogo.png": "/E-commerce_project/static/media/Microsoftlogo.84c8f197b51f272aa9dc.png",
+    "static/media/asuslogo.png": "/E-commerce_project/static/media/asuslogo.9b56130b799b7406d69b.png",
+    "static/media/applelogo.png": "/E-commerce_project/static/media/applelogo.5a7201c5f85428e2fd8a.png",
+    "static/media/samsunglogo.webp": "/E-commerce_project/static/media/samsunglogo.bcae67590afe7bcb94e3.webp",
+    "static/media/slick.svg": "/E-commerce_project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-commerce_project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-commerce_project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-commerce_project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-commerce_project/index.html",
+    "main.3c1833ef.css.map": "/E-commerce_project/static/css/main.3c1833ef.css.map",
+    "main.2a051227.js.map": "/E-commerce_project/static/js/main.2a051227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c1833ef.css",
+    "static/js/main.2a051227.js"
+  ]
+}
